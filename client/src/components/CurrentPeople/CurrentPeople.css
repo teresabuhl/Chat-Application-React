@@ -1,0 +1,64 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.currentyPeople {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 60px;
+  width: 100%;
+}
+
+.currentyPeople h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.activeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.userIconContainer {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: rgb(241, 240, 240);
+}
+
+.userIcon {
+  font-size: 2rem;
+}
+
+.onlineIcon {
+  font-size: 1rem;
+  margin: 0 5%;
+  color: rgb(27, 155, 27);
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
